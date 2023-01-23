@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current Device",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Android",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "sdk gphone64 arm64"
+    },
+    {
+      "name": "iPhone",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "iPhone 14"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Devices",
+      "configurations": ["Android", "iPhone"]
+    }
+  ]
+}
