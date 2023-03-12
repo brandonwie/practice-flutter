@@ -2,7 +2,14 @@
 import 'package:flutter/material.dart';
 import './home.dart';
 
-class App extends StatefulWidget {}
+class App extends StatefulWidget {
+  // add constructor
+  const App({Key? key}) : super(key: key);
+
+  // override createState
+  @override
+  AppState createState() => AppState();
+}
 
 // app level
 class AppState extends State<App> {
